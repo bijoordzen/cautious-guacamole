@@ -1,0 +1,27 @@
+blog_writing_task:
+  description: >
+    Write a compelling, detailed, and high-quality blog post on {topic}.
+    The blog post must feature:
+    - An attention-grabbing title and introduction
+    - Informative body sections with descriptive subheadings
+    - Real-world context and insights
+    - A thoughtful concluding summary
+  expected_output: >
+    A complete markdown-formatted blog post on {topic} with a title, introduction, well-structured
+    subsections, and a conclusion.
+  agent: writer
+
+blog_reporting_task:
+  description: >
+    Review and thoroughly analyze the blog post produced by the writer on {topic}.
+    Create a comprehensive and structured report of that blog covering:
+    1. Executive Summary: Core message and purpose of the blog.
+    2. Key Takeaways: Bulleted summary of the primary insights and facts.
+    3. Target Audience & Tone: Assessment of the intended audience and tone consistency.
+    4. Content Quality & Fact Assessment: Review of readability, structure, and depth.
+    5. Actionable Recommendations: Suggestions for promotion, social snippets, or future follow-ups.
+  expected_output: >
+    A comprehensive editorial and analytical report of the blog post in markdown format,
+    structured with clear sections for executive summary, key takeaways, audience analysis,
+    and recommendations.
+  agent: reporter

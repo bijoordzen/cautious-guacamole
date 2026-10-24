@@ -1,0 +1,23 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# CrewAI outputs, logs, and cache
+.crewai/
+*.log
+crew.log
+output/
+db/
+
+# Operating System & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
